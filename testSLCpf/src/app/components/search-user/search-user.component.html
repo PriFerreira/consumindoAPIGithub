@@ -1,0 +1,21 @@
+<div class="row-custom">
+    <form class="user-search">
+        <div class="search-input">
+            <input 
+            type="text"  
+            placeholder="Digite o usuário GitHub e pressione enter" 
+            [(ngModel)]="userName" 
+            name="username" 
+            (keyup.enter)="searchUser()">
+        </div>        
+    </form>  
+</div>
+
+<div class="row-custom">
+    <div class="user-list">
+        <h3>Perfis retornados da API</h3>
+        <div *ngFor="let user of users" class="list">
+            {{user.login}}
+        </div>        
+    </div>  
+</div>
