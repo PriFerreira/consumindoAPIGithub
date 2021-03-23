@@ -9,6 +9,7 @@ seguidores, número de seguidos, imagem do avatar, e-mail e bio).
 - Utilizei um model apenas para eemplicar outra maneira de trabalho, alé da utilizada em details para demosntração das informações.
 - Neste exemplo estou trabalhando apenas com alguns deltalhes do usuário e toda a lista de repositórios deste usuário.
 - Não foram utilizados CSS frameworks, trabalhei partindo de uma página totalmente em branco.
+- Optei por utilizar o less mas pode ser feito com o sass, compiladores são essenciais para geração de um arquivo css final limpo. Isso aumenta segurança.
 
 # Informações técnicas
 - Angular CLI: 11.2.5
@@ -17,6 +18,10 @@ seguidores, número de seguidos, imagem do avatar, e-mail e bio).
 - Angular: 11.2.6
 - ... animations, common, compiler, compiler-cli, core, forms
 - ... platform-browser, platform-browser-dynamic, router
+- TypeScript 
+- Less
+- HTML
+- JavaScript
 
 Package                         Version
 ---------------------------------------------------------
